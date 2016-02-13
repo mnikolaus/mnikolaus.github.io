@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{ page.title }}</title>
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,900' rel='stylesheet' type='text/css'>
+	<link href="/assets/css/fa.css" rel='stylesheet' type='text/css'>
+	<link href="/assets/css/styles.css" rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<header class="navigation">
+	<div class="container">
+		<div class="logo">
+			<span><span>M</span>ario<span>Nikolaus</span></span>
+		</div>
+		<div class="nav">
+			<nav>
+				<a {% if page.active == "home" %}  class="active" {% endif %} href="/">Home</a>
+				<a {% if page.active == "services" %}  class="active" {% endif %} href="/services">Services</a>
+				<a {% if page.active == "portfolio" %}  class="active" {% endif %} href="/portfolio">Portfolio</a>
+				<a {% if page.active == "blog" %}  class="active" {% endif %} href="/blog">Blog</a>
+				<a {% if page.active == "contact" %}  class="active" {% endif %} href="/contact">Contact</a>
+			</nav>
+		</div>
+	</div>
+</header>
+<section class="colored">
+	<div class="container">
+		<div class="title">
+			<h1>
+				{{ page.heading }}
+			</h1>
+		</div>
+	</div>
+</section>
