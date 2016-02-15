@@ -6,13 +6,28 @@
 	<!-- <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon"> -->
 	
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1"
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,900' rel='stylesheet' type='text/css'>
 	<link href="/assets/css/fa.css" rel='stylesheet' type='text/css'>
-	<link href="/assets/css/styles.css" rel='stylesheet' type='text/css'>
+	<style>
+		.colored {
+			background-color: #f4ae00;	
+		}
+	</style>
+	<!-- <link href="/assets/css/styles.css" rel='stylesheet' type='text/css'> -->
 </head>
 <body>
-
+<script type="text/javascript">
+	var cb = function() {
+        var l = document.createElement('link'); l.rel = 'stylesheet';
+        l.href = '/assets/css/styles.css';
+        var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+      };
+      var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+          webkitRequestAnimationFrame || msRequestAnimationFrame;
+      if (raf) raf(cb);
+      else window.addEventListener('load', cb);
+</script>
 <header class="navigation">
 	<div class="container">
 		<div class="logo">
@@ -45,7 +60,7 @@
 		</header>
 		<div class="col-2">
 			<div>
-				<img src="https://c2.staticflickr.com/2/1586/24889607501_7dad737d6c_h.jpg" width="100%">
+				
 			</div>
 			<div>
 				<p>
