@@ -74,7 +74,7 @@ header.navigation {
   box-sizing: border-box;
   width: 49%;
   padding: 10px;
-  vertical-align: top; }
+  vertical-align: middle; }
 
 .col-3 > div {
   display: inline-block;
@@ -115,9 +115,11 @@ img {
   width: 100%;
   max-width: 600px; }
 
-.portfolio * {
-  max-width: 400px;
-  margin-left: 50px; }
+.portfolio {
+  vertical-align: middle !important; }
+  .portfolio * {
+    max-width: 400px;
+    margin-left: 50px; }
 
 .moto {
   font-size: 24px;
@@ -126,3 +128,12 @@ img {
     text-decoration: none;
     font-weight: 400;
     color: #aaa; }
+
+.path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1200;
+  animation: dash 1s linear forwards; }
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0; } }
