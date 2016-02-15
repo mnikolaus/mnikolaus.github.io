@@ -170,6 +170,39 @@ form {
       color: #333;
       background: #f4ae00; }
 
+.full-page {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f4ae00; }
+  .full-page div {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); }
+    .full-page div h1 {
+      color: #333;
+      font-weight: 100; }
+    .full-page div a {
+      padding: 10px 15px;
+      background: #eee;
+      color: #555;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 10px;
+      transition: 0.1s background ease-in-out;
+      border: 1px solid #ddd;
+      text-decoration: none; }
+      .full-page div a:hover {
+        background: #ddd; }
+
 .path {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1200;

@@ -44,8 +44,11 @@
 			<p class="jumbo">
 				If you interested in working with me or have any question feel free to contact me.
 			</p>
-			<input type="text" placeholder="Your name *" required/><input type="email" placeholder="Your email *" required/>
+			<input type="text" name="name" placeholder="Your name *" required/><input name="email" type="email" placeholder="Your email *" required/>
 			<textarea placeholder="Your message *" required></textarea>
+			<input type="hidden" name="_next" value="//site.io/thanks.html" />
+			<input type="hidden" name="_subject" value="New message from web!" />
+			<input type="text" name="_gotcha" style="display:none" />
 			<input type="submit">
 		</form>
 	</div>
