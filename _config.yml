@@ -6,14 +6,14 @@ description: Mario Nikolaus is a freelance developer.
 search: true
 share-url: "mnikolaus.github.io"
 
-# Jekyll configuration
-# permalink: /blog/:year/:title
-# paginate_path: "/blog/page:num/"
-# markdown:    redcarpet
-# highlighter: pygments
-# gems:
-#   - jekyll-sitemap
-#   - jekyll-paginate
+
+permalink: /blog/:categories/:year/:title/
+paginate_path: "/blog/page:num/"
+markdown:    redcarpet
+highlighter: pygments
+gems:
+  - jekyll-sitemap
+  - jekyll-paginate
 
 redcarpet:
   extensions: ["no_intra_emphasis", "tables", "autolink", "strikethrough", "with_toc_data"]

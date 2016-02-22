@@ -6,11 +6,26 @@ description: An open-source in-memory database integrated with Publish-Subscribe
 active: blog
 excerpt: "A simple and clean responsive Jekyll theme for words and photos."
 search_omit: true
+comments: true
+permalink: blog/
 ---
 
-
 <section>
-	<div id="services" class="container slimer">
-		soon...
+	<div class="container slimer">
+		{% for post in site.posts limit:10 %}
+            <article class="article-preview">
+                <h3>
+                    {{ post.heading }}
+                </h3>
+                <span>
+                    Published on: {{ post.date | date: '%B %d, %Y'}}
+                </span>
+                <p>
+                    {{ post.excerpt }}
+                </p>
+                <a href="{{ post.url }}">Read</a>
+            </article>
+            <section class="divider blog"></section>
+        {% endfor %}
 	</div>
 </section>
