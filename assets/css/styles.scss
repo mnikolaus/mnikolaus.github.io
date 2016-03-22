@@ -5,6 +5,10 @@
 $orange: #f4ae00;
 $gray: #555;
 $green: #19dc14;
+$gray2: #222;
+$text: #f3f3f3;
+$red: #d31152;
+$red: #11acd3;
 
 body {
 	font-family: Lato, Arial, sans-serif;
@@ -35,6 +39,7 @@ section {
 }
 section.colored {
 	background-color: $orange;
+	background-color: $gray2;
 	text-align:center;
 	padding:0;
 
@@ -46,6 +51,7 @@ section.colored {
 			max-width:700px;
 			margin:0 auto;
 			color:#333;
+			color:$text;
 			font-size:2rem;
 			font-weight:100;
 		}
@@ -62,6 +68,7 @@ header.navigation {
 	z-index: 10000;
 	transition:all 0.5s cubic-bezier(.09,1,.32,1);
 	background: $orange;
+	background-color: $gray2;
 
 	.logo {
 		float:left;
@@ -72,7 +79,7 @@ header.navigation {
 			text-transform: uppercase;
 			font-size:1.2rem;
 			font-weight: 900;
-			color:#000;
+			color:$red;
 
 			span {
 				color:#fff;
@@ -93,11 +100,11 @@ header.navigation {
 			transition: all 0.5s cubic-bezier(.09,1,.32,1);
 
 			&.active {
-				color:#000;
+				color:$red;
 			}
 
 			&:hover {
-				color:#000;
+				color:$red;
 			}
 		}
 	}

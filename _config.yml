@@ -9,7 +9,7 @@ share-url: "mnikolaus.github.io"
 
 permalink: /blog/:categories/:year/:title/
 paginate_path: "/blog/page:num/"
-markdown:    redcarpet
+markdown:    kramdown
 highlighter: pygments
 gems:
   - jekyll-sitemap

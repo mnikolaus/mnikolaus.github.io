@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>/blog/2016/tips-for-getting-new-website</loc>
+    <loc>/blog/development/2016/tips-for-getting-new-website/</loc>
     <lastmod>2016-01-15T14:26:34+01:00</lastmod>
   </url>
   <url>
@@ -20,7 +20,7 @@
     <loc>/portfolio/</loc>
   </url>
     <url>
-      <loc>/blog/2016/tips-for-getting-new-website</loc>
+      <loc>/blog/development/2016/tips-for-getting-new-website/</loc>
     </url>
   <url>
     <loc>/thank-you/index.html</loc>
