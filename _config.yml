@@ -18,6 +18,9 @@ kramdown:
 gems:
   - jekyll-paginate
 
+sass:
+  style: compressed
+
 
 mathjax: true
 
