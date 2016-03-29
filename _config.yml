@@ -4,25 +4,24 @@ title: Mario Nikolaus
 locale: en_US
 description: Mario Nikolaus is a freelance developer.
 search: true
-share-url: "mnikolaus.github.io"
+share-url: "http://mnikolaus.me"
 
 
 permalink: /blog/:categories/:year/:title/
 paginate_path: "/blog/page:num/"
 markdown:    kramdown
-highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
 gems:
-  - jekyll-sitemap
   - jekyll-paginate
 
-redcarpet:
-  extensions: ["no_intra_emphasis", "tables", "autolink", "strikethrough", "with_toc_data"]
 
 mathjax: true
 
-# paginate: 10
-
-# Octopress
+paginate: 10
 
 # Default extensions
 post_ext: md
@@ -32,5 +31,4 @@ page_ext: html
 post_layout: post
 page_layout: page
 
-# Format titles with titlecase?
 titlecase: true

@@ -314,6 +314,15 @@ article {
 		font-weight: 400;
 	}
 }
+
+.bio li {
+	margin:20px 0;
+	color:$gray;
+
+	i {
+		color:#aaa;
+	}
+}
 // .path {
 //   stroke-dasharray: 1000;
 //   stroke-dashoffset: 1200;

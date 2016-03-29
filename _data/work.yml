@@ -1,0 +1,12 @@
+- name: Eurozagreb student tournament
+  description: Eurozagreb is annual sport tournament for students all over the world. The website is fully built from scratch so it meets the needs of tournament. Back-end is developed in Codeigniter while the front-end has only Bootstrap framework for styling.
+  image: eurozagreb.png
+- name: Organ Vida photography festival
+  description: Organ Vida is a two-week international photography festival that takes place every fall in Zagreb, Croatia. Whole website is built from scratch in Wordpress based on designer mockups.
+  image: organvida.png
+- name: Volleyball club Gorica
+  description: Website for top level volleyball club in Croatia is built from scratch in Wordpress with unique template build especially for this work.
+  image: gorica.png
+- name: Comwear
+  description: Comwear is IT company for which I developed unique website to represent their services and clients they worked with.
+  image: comwear.png

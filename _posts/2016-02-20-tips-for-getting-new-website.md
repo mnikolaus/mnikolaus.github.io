@@ -33,7 +33,7 @@ You finally decided to build yourself a new website, but you don't know where to
 
 *I want my website structure to be more logical!*
 
-This are all legit goals and are not so easy to accomplish. A lot of thesis had been written with their claims how to achieve each one of them. However in this article I won't share my thoughts on this topics. Rather I will try to give you insight in thinking process behind the making of website from idea to final product.
+These are all legit goals and are not so easy to accomplish. A lot of thesis had been written with their claims how to achieve each one of them. However in this article I won't share my thoughts on this topics. Rather I will try to give you insight in thinking process behind the making of website from idea to final product.
 
 So, what is the main reason you want to change your website? This is your **goal**. Embrace it and build everything around it. Sure you have to have more than one goal. But this is your primary goal and you should put most focus on it.
 

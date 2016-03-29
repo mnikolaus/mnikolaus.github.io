@@ -17,70 +17,24 @@ search_omit: true
 	</div>
 </section>
 <section class="divider"></section>
+{% for work in site.data.work %}
 <section>
 	<div class="container">
 		<div class="col-2">
 			<div>
-				<img src="/assets/img/work/eurozagreb.png" alt="Eurozagreb website">
+				<img src="/assets/img/work/{{work.image}}" alt="Eurozagreb website">
 			</div>
 			<div class="portfolio">
-				<h3>Eurozagreb student tournament</h3>
+				<h3>{{ work.name }}</h3>
 				<p>
-					Eurozagreb is annual sport tournament for students all over the world. The website is fully built from scratch so it meets the needs of tournament. Back-end is developed in Codeigniter while the front-end has only Bootstrap framework for styling.
+					{{ work.description }}
 				</p> 
 			</div>
 		</div>
 	</div>
 </section>
 <section class="divider"></section>
-<section>
-	<div class="container">
-		<div class="col-2">
-			<div>
-				<img src="/assets/img/work/organvida.png" alt="Organvida website">
-			</div>
-			<div class="portfolio">
-				<h3>Organ Vida Photography Festival</h3>
-				<p>
-					Bacon ipsum dolor amet jowl turkey meatball pancetta, pastrami cupim picanha tail doner fatback corned beef sirloin. Sausage salami ground round ball tip frankfurter. Tail cupim tongue meatloaf boudin. Short loin shankle beef frankfurter, spare ribs jerky prosciutto brisket.
-				</p>
-			</div>
-		</div>
-	</div>
-</section>
-<section class="divider"></section>
-<section>
-	<div class="container">
-		<div class="col-2">
-			<div>
-				<img src="/assets/img/work/gorica.png">
-			</div>
-			<div class="portfolio">
-				<h3>Volleyball club Gorica</h3>
-				<p>
-					Bacon ipsum dolor amet jowl turkey meatball pancetta, pastrami cupim picanha tail doner fatback corned beef sirloin. Sausage salami ground round ball tip frankfurter. Tail cupim tongue meatloaf boudin. Short loin shankle beef frankfurter, spare ribs jerky prosciutto brisket.
-				</p>
-			</div>
-		</div>
-	</div>
-</section>
-<section class="divider"></section>
-<section>
-	<div class="container">
-		<div class="col-2">
-			<div>
-				<img src="/assets/img/work/comwear.png">
-			</div>
-			<div class="portfolio">
-				<h3>Comwear</h3>
-				<p>
-					Bacon ipsum dolor amet jowl turkey meatball pancetta, pastrami cupim picanha tail doner fatback corned beef sirloin. Sausage salami ground round ball tip frankfurter. Tail cupim tongue meatloaf boudin. Short loin shankle beef frankfurter, spare ribs jerky prosciutto brisket.
-				</p>
-			</div>
-		</div>
-	</div>
-</section>
-<section class="divider"></section>
+{% endfor %}
 <section>
 	<div class="container">
 		<header class="center moto">
