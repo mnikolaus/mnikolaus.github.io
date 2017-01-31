@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+    
+    <url>
+      <loc>/blog/development/2016/tips-for-getting-new-website/</loc>
+      
+        <lastmod>2016-01-15T14:26:34+01:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.8</priority>
+      
+    </url>
+    
+  
+  
+    
+    <url>
+      <loc>/portfolio/</loc>
+      
+        <lastmod>2016-03-30T21:47:03+02:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.6</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/blog/</loc>
+      
+        <lastmod>2016-03-30T21:47:03+02:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.6</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/contact/</loc>
+      
+        <lastmod>2016-03-30T21:47:03+02:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.6</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/</loc>
+      
+        <lastmod>2016-03-30T21:47:03+02:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.6</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/services/</loc>
+      
+        <lastmod>2016-03-30T21:47:03+02:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.6</priority>
+      
+    </url>
+    
+  
+    
+  
+    
+    <url>
+      <loc>/assets/css/styles.css</loc>
+      
+        <lastmod>2016-03-30T21:47:03+02:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.6</priority>
+      
+    </url>
+    
+  
+</urlset>
