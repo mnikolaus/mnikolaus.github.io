@@ -1,10 +1,14 @@
 # Site wide configuration
 
-title: Mario Nikolaus
+title: Mario Nikolaus - freelance front-end developer
 locale: en_US
-description: Mario Nikolaus is a freelance developer.
+description: Front-end developer, freelance photographer, technology enthusiast and QA beginner.
 search: true
 share-url: "http://mnikolaus.me"
+image: "http://mnikolaus.me/assets/images/mn.jpg"
+image_height: 1000
+image_width: 1500
+
 
 
 permalink: /blog/:categories/:year/:title/
