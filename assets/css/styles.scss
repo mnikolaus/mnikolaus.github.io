@@ -17,6 +17,7 @@ body {
 }
 .container {
 	max-width:1200px;
+	padding: 0 15px;
 	margin:0 auto;
 
 	&.slimer{
@@ -73,7 +74,11 @@ header.navigation {
 	.logo {
 		float:left;
 		height:100%;
-		padding:2.7rem 4rem;
+		padding:1.5rem 4rem;
+
+		@media (max-width: 900px) {
+			padding: 1.5rem 2rem;
+		}
 
 		span {
 			text-transform: uppercase;
@@ -90,13 +95,39 @@ header.navigation {
 
 	.nav {
 		float:right;
-		padding:2.8rem;
+		padding:1.8rem 2.8rem;
+
+		@media (max-width: 900px) {
+			padding: 1rem;
+		}
+
+		nav {
+			@media (max-width: 900px) {
+				position: fixed;
+				z-index: 10001;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 1000px;
+				background: $red;
+				transition: 0.3s all cubic-bezier(.09,1,.32,1);
+				padding-top: 5rem;
+
+				&.open {
+					left: 0;
+				}
+			}
+
+		}
+
+		
 
 		a {
 			color:#fff;
 			text-decoration:none;
 			text-transform:uppercase;
 			padding:1rem;
+			font-size: 0.9rem;
 			transition: all 0.5s cubic-bezier(.09,1,.32,1);
 
 			&.active {
@@ -105,6 +136,16 @@ header.navigation {
 
 			&:hover {
 				color:$red;
+			}
+
+			@media (max-width: 900px) {
+				display: block;
+				font-size: 1.2rem;
+				padding: 1.5rem;
+
+				&.active {
+					background: #fff;
+				}
 			}
 		}
 	}
@@ -116,6 +157,10 @@ header.navigation {
 		width:49%;
 		padding:10px;
 		vertical-align: middle;
+
+		@media (max-width: 600px) {
+			width: 100%;
+		}
 	} 
 }
 .col-3 {
@@ -125,6 +170,10 @@ header.navigation {
 		width:33%;
 		padding:10px;
 		vertical-align: top;
+
+		@media (max-width: 800px) {
+			width: 100%;
+		}
 	} 
 }
 footer {
@@ -333,4 +382,90 @@ article {
 //   to {
 //     stroke-dashoffset: 0;
 //   }
+// }
+
+.hamburger {
+  width: 30px;
+  height: 25px;
+  position: relative;
+  z-index: 10002;
+  margin: 10px auto;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+  display: none;
+
+  @media (max-width: 900px) {
+  	display: block;
+  }
+}
+
+.hamburger span {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background: #fff;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+.hamburger span:nth-child(1) {
+  top: 0px;
+}
+
+.hamburger span:nth-child(2),.hamburger span:nth-child(3) {
+  top: 9px;
+}
+
+.hamburger span:nth-child(4) {
+  top: 18px;
+}
+
+.hamburger.open span:nth-child(1) {
+  top: 9px;
+  width: 0%;
+  left: 50%;
+}
+
+.hamburger.open span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.hamburger.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.hamburger.open span:nth-child(4) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+
+// @keyframes showNav {
+// 	0% {
+// 		display: block;
+
+// 	}
 // }

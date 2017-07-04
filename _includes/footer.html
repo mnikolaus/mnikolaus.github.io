@@ -10,5 +10,14 @@
 		</p>
 	</div>
 </footer>
+<script type="text/javascript">
+	var $hamburger = document.querySelector('.hamburger');
+	var $nav = document.querySelector('.nav nav');
+	$hamburger.addEventListener('click', function() {
+
+		this.classList.toggle('open');
+		$nav.classList.toggle('open');
+	});
+</script>
 </body>
 </html>
