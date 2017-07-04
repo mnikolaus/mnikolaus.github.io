@@ -1,3 +1,6 @@
+- name: CroatiaTweet
+  description: Croatia Tweet is dashboard that provides interesting facts and trends in tweets about Croatia. Application is entirely developed in Javascript, on both front-end(ReactJS) and back-end(NodeJS).
+  image: croatiatweet.png
 - name: Eurozagreb student tournament
   description: Eurozagreb is annual sport tournament for students all over the world. The website is fully built from scratch so it meets the needs of tournament. Back-end is developed in Codeigniter while the front-end has only Bootstrap framework for styling.
   image: eurozagreb.png
