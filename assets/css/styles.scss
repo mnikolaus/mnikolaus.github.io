@@ -37,8 +37,8 @@ section {
 
 	h2 {
 		font-size:2.5rem;
-		font-weight: 100;
-		color:#555;
+		font-weight: 300;
+		color: $gray2;
 		margin-bottom:4rem;
 
 		@media (max-width: 600px) {
@@ -46,6 +46,11 @@ section {
 		}
 	}
 }
+
+h3 {
+  font-weight: 500;
+}
+
 section.colored {
 	background-color: $orange;
 	background-color: $gray2;
@@ -60,13 +65,13 @@ section.colored {
 		}
 
 		h1 {
-			padding:2rem;
-			max-width:700px;
-			margin:0 auto;
-			color:#333;
-			color:$text;
-			font-size:2rem;
-			font-weight:100;
+			padding: 2rem;
+			max-width: 700px;
+			margin: 0 auto;
+			color: $text;
+      font-size: 2rem;
+      line-height: 3rem;
+			font-weight: 300;
 
 			@media (max-width: 600px) {
 				font-size: 1.6rem;
@@ -240,13 +245,31 @@ footer {
 }
 .services {
 
+  & > div {
+    padding: 0 30px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    text-align: center;
+    line-height: 1.4;
+    font-size: 14px;
+  }
 }
 img {
 	width:100%;
 	max-width:600px;
 }
 .portfolio {
-	vertical-align:middle !important;
+  vertical-align:middle !important;
+  
+  p {
+    line-height: 1.4;
+    font-size: 14px;
+  }
 
 	* {
 		max-width:400px;
@@ -268,10 +291,14 @@ img {
 	}
 }
 form {
-	margin:20px auto;
+  margin:20px auto;
+  
 	p {
-		font-size:24px;
-		font-weight: 100;
+    font-size:24px;
+    line-height: 1.4;
+    font-weight: 300;
+    max-width: 600px;
+    margin: 0 auto 40px;
 	}
 
 	input[type=text], input[type=email]{
@@ -401,11 +428,12 @@ article {
 }
 
 .bio li {
-	margin:20px 0;
-	color:$gray;
+  margin:20px 0;
+  font-size: 16px;
+	color: $gray2;
 
 	i {
-		color:#aaa;
+		color: #777;
 	}
 }
 // .path {
